@@ -62,16 +62,17 @@
     </script>
 </head>
 <body class="nis body" id='body'>
-<div id='container' class='stack' style='flex-direction: column; align-items: center;'>
-    <pre><h1 id="timer" class='nistext'>00:00:00</h1></pre>
-    <div class='stack' style='width: 60px; flex-direction: row; '>
-        <div class="nissmallimagebutton menubutton" id="sub" onclick="decrement()">-</div>
-        <div class="nissmallimagebutton menubutton" id="add" onclick="increment()">+</div>
+    <div id='container' class='stack' style='flex-direction: column; align-items: center;'>
+        <pre><h1 id="timer" class='nistext'>00:00:00</h1></pre>
+        <div class='stack' style='width: 60px; flex-direction: row; '>
+            <div class="nissmallimagebutton menubutton" id="sub" onclick="decrement()">-</div>
+            <div class="nissmallimagebutton menubutton" id="add" onclick="increment()">+</div>
+        </div>
+        <ul class='nistext'>
+            <li>Flashing red means click book.</li>
+            <li>Yellow means turn off book after XP drop.</li>
+            <li>Shrink this after reading the text!</li>
+        </ul>
     </div>
-    <ul class='nistext'>
-        <li>Flashing red means click book.</li>
-        <li>Yellow means turn off book after XP drop.</li>
-    </ul>
-</div>
 </body>
 </html>
