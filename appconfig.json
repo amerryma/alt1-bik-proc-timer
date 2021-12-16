@@ -1,0 +1,16 @@
+{
+    "appName": "BikProcTimer",
+    "description": "Allows user to sync a timer to the in-game timer then alerts when book is about to proc.",
+    "appUrl": "./index.html",
+    "configUrl": "./appconfig.json",
+    "iconUrl": "./assets/favicon.png",
+    "defaultWidth": 283,
+    "defaultHeight": 149,
+    "minWidth":283,
+    "minHeight":149,
+    "maxWidth":283,
+    "maxHeight":149,
+    "requestHandlers": [],
+    "activators": [],
+    "permissions": ""
+}
