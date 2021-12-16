@@ -3,7 +3,7 @@
     "description": "Allows user to sync a timer to the in-game timer then alerts when book is about to proc.",
     "appUrl": "./index.html",
     "configUrl": "./appconfig.json",
-    "iconUrl": "./assets/favicon.png",
+    "iconUrl": "./assets/favicon-96x96.png",
     "defaultWidth": 283,
     "defaultHeight": 149,
     "minWidth":283,
