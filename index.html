@@ -34,7 +34,7 @@
         }
     </style>
     <script>
-        let startTime = Date.now()
+        let startTime = Date.now() - 5000
         window.onload = (event) => {
             console.log('page is fully loaded');
             const timerEl = document.getElementById('timer')
@@ -71,7 +71,9 @@
         <ul class='nistext'>
             <li>Flashing red means click book.</li>
             <li>Yellow means turn off book after XP drop.</li>
-            <li>Shrink this after reading the text!</li>
+            <li>Press the + or - buttons to sync the seconds with the game.</li>
+            <li>Enable timestamps in your chat so it's easier for you to sync it.</li>
+            <li>Shrink this window after reading the text!</li>
         </ul>
     </div>
 </body>
